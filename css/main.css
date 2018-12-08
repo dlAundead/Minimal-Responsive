@@ -5,6 +5,14 @@ body {
 	color: #222222;
 }
 
+html {
+  font-size: 10px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 @font-face{
     font-family: 'wf_SegoeUILight';
     src:url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.eot');
@@ -16,6 +24,174 @@ body {
     font-style: normal;
 }
 
-* {
-	box-sizing: border-box;
+/*Header*/
+
+.main {
+  width: 100%;
+  color: #6c6c6c;
+  background-color: #fff;
+}
+
+.header {
+  width: 85%;
+  height: 15vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #6c6c6c;
+}
+
+/*Banner*/
+
+.banner {
+  background: url(../img/background-banner.png) no-repeat center;
+  background-size: cover; 
+  width: 100%;
+  height: 485px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 485px;
+}
+
+.iphone {
+  background: url(../img/iphone.png) no-repeat;
+  width: 345px;
+  height: 436px;
+  margin-top: 30px;
+}
+
+.banner-header span {
+  font-size: 4rem;
+}
+
+.banner-header p {
+  font-size: 3rem;
+}
+
+.sign-up-now {
+  text-align: center;
+  width: 172px;
+  height: 41px;
+  font-size: 22px;
+  background: url(../img/okay.png) no-repeat center;
+  position: relative;
+  margin-right: 150px;
+}
+
+.sign-up-now-btn {
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  left: 43px;
+  top: 6px;
+}
+
+/*Content*/
+.content {
+  width: 100%;
+  margin-top: 70px;
+  background-color: #fff;
+}
+
+.content-box-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-bottom: 65px;
+}
+
+.item-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between
+}
+
+.item-1 h3 {
+  color: #5094f2;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.item-1 p {
+  color: #909090;
+  font-size: 14px;
+  width: 250px;
+  text-align: center;
+}
+
+.content-box-2 {
+  display: flex;
+  justify-content: space-around;
+  color: #6f7173;
+  margin-bottom: 25px;
+}
+
+.content-box-2 h1 {
+  font-size: 45px;
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.content-box-2-text {
+  width: 500px;
+  margin-right: 50px;
+}
+
+.content-box-2-text h2{
+  font-size: 30px;
+  margin-top: 65px;
+}
+
+.content-box-2-text p{
+  font-size: 14px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin: 1rem auto;
+}
+
+.copy {
+  font-size: 1.4rem;
+  color: #6a6a77;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.copy p{
+ margin: 30px 0px 30px 0px;
 }
