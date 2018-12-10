@@ -1,0 +1,13 @@
+@media (max-width:1920px) {
+	.menu-link:hover {
+		padding-bottom: 14px;
+	}
+}
+
+
+@media (max-width:991px) {
+	.menu-link:hover {
+		padding-bottom: 8px;
+	}
+}
+
