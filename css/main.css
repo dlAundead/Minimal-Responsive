@@ -59,12 +59,12 @@ html {
   text-decoration: none;
   color: #6c6c6c;
   padding-bottom: 16px;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
   transition: all 0.3s;
 }
 
 .menu-link:hover {
-  border-bottom-color: blue;
+  border-bottom-color: #5094f2;
 }
 
 .m-menu-link {
