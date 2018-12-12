@@ -36,7 +36,7 @@ html {
 
 .header {
   width: 85%;
-  height: 15vh;
+ 
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -58,11 +58,13 @@ html {
 .menu-link {
   text-decoration: none;
   color: #6c6c6c;
+  padding-bottom: 16px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
 }
 
 .menu-link:hover {
-  border-bottom: 2px solid #5094f2;
-  padding-bottom: 14px;
+  border-bottom-color: blue;
 }
 
 .m-menu-link {
