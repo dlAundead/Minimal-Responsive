@@ -121,6 +121,13 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+}
+
+.background-triangle {
+  position: absolute;
+  bottom: -31px;
+  
 }
 
 .banner-header {

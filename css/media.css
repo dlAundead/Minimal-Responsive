@@ -1,6 +1,9 @@
-
 @media (max-width:1021px) {
 	.visible-lg {
+		display: none;
+	}
+
+	.visible-line-triangle {
 		display: none;
 	}
 
@@ -64,3 +67,8 @@
 	}
 }
 
+@media (min-width:1555px) {
+	.visible-line-triangle {
+		display: none;
+	}
+}
