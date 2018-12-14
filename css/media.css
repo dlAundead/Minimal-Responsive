@@ -2,6 +2,10 @@
 	.visible-lg {
 		display: none;
 	}
+	
+	.background-triangle {
+		display: none;
+	}
 
 	.m-menu-link {
 		display: block;
