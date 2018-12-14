@@ -170,8 +170,12 @@ html {
   color: #fff;
   text-decoration: none;
   position: absolute;
-  left: 43px;
-  top: 6px;
+  left: 2px;
+  bottom: 0px;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  padding-left: 24px;
 }
 
 /*Content*/
