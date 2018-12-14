@@ -3,10 +3,6 @@
 		display: none;
 	}
 
-	.visible-line-triangle {
-		display: none;
-	}
-
 	.m-menu-link {
 		display: block;
 	}
@@ -64,11 +60,5 @@
 		width: 100%;
 		text-align: left;
 		margin: 10px 0;
-	}
-}
-
-@media (min-width:1555px) {
-	.visible-line-triangle {
-		display: none;
 	}
 }
